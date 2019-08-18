@@ -45,7 +45,7 @@ public class Livro {
     public String getEditora(){
         return this.getEditora();
     }
-    public void setValor(double valor){
+    public void setValor(double Valor){
      this.Valor = Valor;
     }
     public double getValor(){
@@ -53,18 +53,19 @@ public class Livro {
     }
     
     public String exibir(){
-        System.out.println("lIVRO:"+Titulo);
-        System.out.println("AUTOR:"+Autor);
-        System.out.println("ISBN:"+ISBN);
-        System.out.println("PAGINAS:"+Paginas);
-        System.out.println("ANO:"+Ano);
-        System.out.println("EDITORA:"+Editora);
-        System.out.println("VALOR:"+Valor);    
+        System.out.println("----------------");
+        System.out.println("lIVRO: "+Titulo);
+        System.out.println("AUTOR: "+Autor);
+        System.out.println("ISBN: "+ISBN);
+        System.out.println("PAGINAS: "+Paginas);
+        System.out.println("ANO: "+Ano);
+        System.out.println("EDITORA: "+Editora);
+        System.out.println("VALOR: "+Valor);    
         return null;
     }
     public double venda(int qtd){
-        System.out.println("Valor da venda: "+(getValor()*qtd));
-        return qtd;
+        System.out.println("Valor da venda: "+Valor*qtd);
+        return 0;
     }
 }
 

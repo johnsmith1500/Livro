@@ -5,8 +5,7 @@ public class Principal {
 
     
     public static void main(String[] args) {
-        Livraria i = new Livraria();
-        i.show();
+        
         
        
         Livro a = new Livro();
@@ -34,7 +33,7 @@ public class Principal {
         Livro c= new Livro();
         c.setTitulo("Crime e Castigo");
         c.setAutor("Fiodor Dostoievski");
-        c.setISBN(173508);
+        c.setISBN(4267);
         c.setPaginas(1626);
         c.setAno(1878);
         c.setEditora("Leiturinha");
@@ -44,20 +43,18 @@ public class Principal {
         
         Livro d = new Livro();
         d.setTitulo("Irmãos Karamazov");
-        d.setAutor("Lewis Carroll");
+        d.setAutor("Fiodor Dostoievski");
         d.setISBN(515705);
-        d.setPaginas(132);
-        d.setAno(1898);
+        d.setPaginas(2156);
+        d.setAno(1894);
         d.setEditora("Leiturinha");
-        d.setValor(45.15);
-        d.venda(175);
+        d.setValor(216.35);
+        d.venda(284);
         d.exibir();
-        
-        /* Livro L = new Livro();
-        L.setTitulo("Que dia");
-        L.exibir();
-        L.setValor(18.00);
-        L.venda(2); */
+       
+        Livraria i = new Livraria();
+        i.show(); 
+       
     }
     
 }
